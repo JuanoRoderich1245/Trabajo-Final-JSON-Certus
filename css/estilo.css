@@ -1,0 +1,213 @@
+/*Impotación de fuentes de letras desde Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans:wght@700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Indie+Flower&family=Permanent+Marker&display=swap');
+
+/*CSS PARA LA ETIQUETA BODY*/
+.cuerpo{
+    background-color: #00579E;  /* Cambiamos el color del texto a azul */
+    margin: 0px; /* Quitamos cualquier margen exterior */
+}
+
+/*CSS PARA LA ETIQUETA HEADER*/
+header{
+    padding-top: 30px; /*Padding superior que usa el header*/
+    padding-bottom: 30px; /*Padding inferior que usa el header*/
+    margin: 0px; /* Quitamos cualquier margen exterior */
+    background-image: url(Fondo\ Biblioteca.avif); /* Agregamos una imagen de fondo */
+    background-position: center; /* Centramos la imagen de fondo */
+    background-size: cover; /* Hacemos que la imagen de fondo cubra todo el elemento */
+    color: #FBFF19; /* Cambiamos el color del texto a amarillo */
+}
+
+header > h1{
+    font-size: 3em; /*Tamaño de la letra*/
+    font-family: 'Fjalla One', sans-serif; /*Fuente de la letra*/
+    text-align: center; /*Para centrar el texto*/
+    margin: 0px; /* Quitamos cualquier margen exterior */
+}
+
+header > h2{
+    font-size: 1.5em; /* Tamaño de la letra */
+    text-align: center; /* Para centrar el texto */
+    margin: 0px; /* Quitamos cualquier margen exterior */
+
+}
+
+/*Aplica el estilo al título h3 dentro de un article dentro de un section dentro de main*/
+main > section > article > h3{
+    font-family: 'Permanent Marker', cursive; /*Establece la fuente del título como Permanent Marker*/
+}
+
+nav > ul > li{
+    display: inline-block; /* Define que el elemento sea un bloque y se muestre en línea */
+    padding: 10px 20px 10px 20px; /* Agrega un relleno al elemento */
+    font-family: 'Indie Flower', cursive; /* Define la fuente a utilizar para el texto */
+    font-size: 20px; /* Define el tamaño de fuente del texto */
+}
+
+nav > ul > li:hover {
+    font-weight: bold; /* Hace que el texto del elemento de lista se vea en negrita */
+    background-color: #A77507; /* Cambia el color de fondo del elemento de lista */
+}
+
+nav > ul > li > a{
+    text-decoration: none; /* Sin subrayado en el texto */
+    color: #FBFF19; /* Color del texto amarillo */
+}
+
+/* Seleccionamos el elemento con el id "contador-productos" */
+#contador-productos{
+    font-weight: bold; /* Fuente de texto en negrita  */
+    color: #000; /* Color de letra negro */
+    padding: 5px; /* Añadimos un padding de 5px */
+    margin-left: 5px; /* Colocamos un margen izquierdo de 5px */
+    background-color: #ffc107; /* Fondo de color amarillo */
+}
+
+/* Seleccionamos el elemento con el id "notificacion" */
+#notificacion{
+    margin: 0px; /* Quitamos cualquier margen exterior */
+    padding: 12px; /* Añadimos un padding de 12px */
+    font-family: 'Cinzel', serif; /* Especificamos la fuente de la letra */
+    text-align: center; /* Centramos el texto */
+    color: #000985; /* Color de letra azul */
+    background: #CCA71B; /* Fondo de color marrón claro */
+    font-weight: bold; /* Establecemos un peso de letra negrita */
+}
+
+/*CSS PARA LA ETIQUETA MAIN*/
+main {
+    max-width: 1320px; /* Ancho máximo del main */
+    margin-left: auto; /* Margen izquierdo automático para centrarlo */
+    margin-right: auto; /* Margen derecho automático para centrarlo */
+    background-color: papayawhip; /* Color de fondo del main */
+}
+
+/*CSS PARA LA ETIQUETA ARTICLE*/
+article{
+    width: 24%; /* Ancho del elemento */
+    max-width: 300px; /* Ancho máximo del elemento */
+    min-width: 200px; /* Ancho mínimo del elemento */
+    display: inline-block; /* Mostrar el elemento en línea y como bloque */
+    margin: 8px; /* Margen exterior del elemento */
+    border: 2px #00579E solid; /* Borde del elemento */
+    background-color: #fff; /* Color de fondo del elemento */
+    padding: 15px; /* Relleno interno del elemento */
+    box-sizing: border-box; /* Incluir el borde y relleno dentro del ancho del elemento */
+}
+
+/*Creamos la clase e invocamos sus propiedades en la página web*/
+.imgLibro{
+    width: 100%; /* Establecemos el ancho de la imagen al 100% del contenedor */
+}
+
+/*Creamos la clase e invocamos sus propiedades en la página web*/
+.precioOriginal{
+    font-size: 1.5em; /* Establece el tamaño de fuente del elemento en 1.5em */
+    color: orange; /* Establece el color del texto del elemento en naranja */
+    text-decoration: line-through; /* Establece la decoración de texto del elemento en línea de tachado */
+}
+
+/*Creamos la clase e invocamos sus propiedades en la página web*/
+.precioDescuento{
+    font-size: 1.5em; /* Establece el tamaño de fuente del elemento en 1.5em */
+    font-weight: bold;  /* Establece el grosor de la fuente del elemento en negrita */
+}
+
+/*Creamos la clase e invocamos sus propiedades en la página web*/
+.precioFinal{
+    font-size: 2em; /* Establece el tamaño de la fuente del elemento en 2em */
+    color: firebrick; /* Establece el color del texto del elemento en firebrick */
+    font-weight: bold;  /* Establece el grosor de la fuente del elemento en negrita */
+}
+
+/*CSS PARA LA ETIQUETA FOOTER*/
+.pie_pagina{
+    padding-top: 30px; /* Agregamos un espaciado superior */
+    padding-bottom: 30px; /* Agregamos un espaciado inferior  */
+    margin: 0px; /* Quitamos cualquier margen exterior */
+    background-image: url(Fondo\ Biblioteca.avif); /* Agregamos una imagen de fondo */
+    background-position: center; /* Centramos la imagen de fondo */
+    background-size: cover; /* Hacemos que la imagen de fondo cubra todo el elemento */
+}
+
+/*Creamos la clase e invocamos sus propiedades en la página web*/
+.imagen{
+    height: 300px; /* Establece la altura de la imagen en 300 píxeles. */
+    width: 500px; /* Establece el ancho de la imagen en 500 píxeles. */
+}
+
+/*Creamos la clase e invocamos sus propiedades en la página web*/
+.red_social{
+    color: #FBFF19; /* Indica que se aplica el color amarillo */
+}
+
+/* Aplicamos estilos al elemento con el id "autor" */
+#autor{
+    text-align: center; /* Centramos el texto en el elemento */
+    color: #FBFF19; /* Cambiamos el color del texto a amarillo */
+    background-color: #A34F02; /* Cambiamos el color de fondo del elemento a marrón  */
+}
+
+/*Creamos la clase e invocamos sus propiedades en la página web*/
+.fb{
+    background: rgb(0, 81, 255); /* Establece el color de fondo del elemento en azul. */
+    padding: 8px; /* Establece el relleno interior del elemento en 8 píxeles. */
+    border-radius: 50px;
+    color: white; /*  Establece el color del texto del elemento en blanco. */
+}
+
+/*Creamos la clase e invocamos sus propiedades en la página web*/
+.ins{
+    background: rgb(255, 0, 179); /* Establece el color de fondo del elemento en rosa. */
+    padding: 8px; /* Establece el relleno interior del elemento en 8 píxeles. */
+    border-radius: 50px; /* Establece el radio de las esquinas del elemento en 50 píxeles para crear una forma redondeada. */
+    color: white; /*  Establece el color del texto del elemento en blanco. */
+}
+
+/*Creamos la clase e invocamos sus propiedades en la página web*/
+.wtsp{
+    background: rgb(31, 172, 36); /* Establece el color de fondo del elemento en verde. */
+    padding: 8px; /* Establece el relleno interior del elemento en 8 píxeles. */
+    border-radius: 30px; /* Establece el radio de las esquinas del elemento en 30 píxeles para crear una forma redondeada. */
+    color: white; /*  Establece el color del texto del elemento en blanco. */
+}
+
+/*Creamos la clase e invocamos sus propiedades en la página web*/
+.cabeza {
+    display: flex; /* Establece el elemento como un contenedor flexible. */
+    justify-content: space-around; /* Distribuye el espacio entre los elementos de manera uniforme, dejando un espacio igual en ambos lados. */
+    margin-right: 2rem; /* Establece un margen de 2 píxeles en el lado derecho del elemento. */
+    margin-left: 2rem; /* Establece un margen de 2 píxeles en el lado izquierdo del elemento. */
+    flex-wrap: wrap; /* Permite que los elementos secundarios se envuelvan en filas adicionales si el espacio es insuficiente. */
+  }
+
+/*Creamos la clase e invocamos sus propiedades en la página web*/
+.contenedor{
+    display: flex; /*  Establece el elemento como un contenedor flexible. */
+    flex-direction: column; /* Establece la dirección de los elementos secundarios como vertical. */
+    flex-wrap: wrap; /* Los elementos secundarios se envuelvan en filas adicionales si el espacio es insuficiente. */
+}
+
+/*Creamos la clase e invocamos sus propiedades en la página web*/
+.redes{
+    display: flex; /* Establece el elemento como un contenedor flexible.*/
+    flex-direction: column; /* Establece la dirección de los elementos secundarios como vertical.*/
+    align-items: center; /* Centra verticalmente los elementos secundarios dentro del contenedor.*/
+
+}
+
+/*Creamos la clase e invocamos sus propiedades en la página web*/
+.redes-span{
+    width: 10rem; /* Establece el ancho del elemento a 10rem.*/
+    display: flex; /* Establece el elemento como un contenedor flexible.*/
+    flex-direction: column; /* Establece la dirección de los elementos secundarios como vertical.*/
+}
+
+/*Creamos la clase e invocamos sus propiedades en la página web*/
+.botonRed{
+    text-decoration: none; /* Elimina la decoración del subrayado de texto en el elemento.*/
+    color: white; /* Establece el color del texto del elemento en blanco. */
+}

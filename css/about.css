@@ -1,0 +1,24 @@
+/*Impotación de fuentes de letras desde Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+/*CSS PARA LA ETIQUETA H2*/
+h2{
+    font-family: 'Kanit', sans-serif; /* Establecer la fuente de la familia tipográfica de un elemento de texto */
+}
+
+/*Creamos la clase "contenedor-2" e invocamos sus propiedades en la página web*/
+.contenedor-2{
+    padding: 15px 25px; /* Establece el relleno del botón */
+}
+
+/*Creamos la clase "descripcion" e invocamos sus propiedades en la página web*/
+.descripcion, #collapseOne, #collapseTwo, #collapseThree{
+    font-family: 'Anonymous Pro', monospace; /* Establecer la fuente de la familia tipográfica de un elemento de texto */
+}
+
+/*Creamos la clase "iso" e invocamos sus propiedades en la página web*/
+.iso{
+    display: block; /* Mostrar el elemento en bloque */
+    margin: auto; /* El margen se colocará de manera automática */
+}

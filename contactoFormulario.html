@@ -1,0 +1,88 @@
+<!DOCTYPE html> <!-- Indica al navegador que el documento es un documento HTML. -->
+<html lang="es"> <!-- Elemento raíz de un documento HTML que define todo el documento. -->
+
+<head> <!-- Contiene elementos que proporcionan información sobre el documento, como el título, el enlace al archivo CSS y otros metadatos. -->
+    <meta charset="UTF-8"> <!-- Especifica el conjunto de caracteres UTF-8 utilizado en el documento. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Especifica la versión de Internet Explorer que debe usarse para renderizar la página. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define la escala inicial de la página para dispositivos móviles. -->
+    <title>Librería Online - "El Mago de los Libros"</title> <!-- Define el título de la página que se muestra en la pestaña del navegador. -->
+    <link rel="stylesheet" href="css/estilo.css"> <!-- Vincula el archivo de hoja de estilo externa para dar estilo a la página HTML. -->
+    <link rel="stylesheet" href="css/estiloEnviado.css">
+    <script src="https://kit.fontawesome.com/56704fd2de.js" crossorigin="anonymous"></script> <!-- Vincula el archivo de script de Font Awesome para el uso de iconos. -->
+    <link rel="icon" href="img/Icono.png"> <!-- Especifica el icono que se muestra en la pestaña del navegador. -->
+</head>
+
+<body class="cuerpo"> <!-- Contiene todo el contenido visible de la página HTML. -->
+    <!--ENCABEZADO-->
+    <header> <!-- Contiene el encabezado de la página HTML, incluyendo un título y un subtitulo. -->
+        <h1>LIBRERÍA "EL MAGO DE LOS LIBROS" </h1> <!-- Define el título principal del encabezado. -->
+        <h2> Calidad y precio</h2> <!-- Define el subtítulo del encabezado. -->
+    </header>
+
+    <!-- Notificación -->
+    <div id="notificacion">Tus mejores libros en un solo lugar.</div>
+    <!-- Define una notificación en la página HTML. -->
+
+    <!-- Parte Principal -->
+    <main>
+    <div class="formulario">
+        <!-- Esta etiqueta div se utiliza para agrupar elementos HTML en un contenedor -->
+        <picture>
+            <!-- La etiqueta picture permite definir varias fuentes de una imagen para diferentes resoluciones de pantalla -->
+            <img class="imagenEnviado" src="img/Formulario.png">
+            <!-- La etiqueta img se utiliza para insertar imágenes en una página web -->
+        </picture>
+    </div>
+
+    <div class="enviado">
+        <!-- Esta etiqueta div se utiliza para agrupar elementos HTML en un contenedor -->
+        <label class="noti">
+            <!-- La etiqueta label se utiliza para definir una etiqueta para un elemento input -->
+            TUS DATOS YA HAN SIDO ENVIADOS.
+        </label>
+        <a class="boton" href="index.html">
+            <!-- La etiqueta a se utiliza para crear un enlace a otra página web o a una sección de la misma página -->
+            REGRESAR AL INICIO
+        </a>
+    </div>
+    </main>
+
+    <footer class="pie_pagina"> <!-- Inicio de la sección de pie de página -->
+        <div class="cabeza"> <!-- Sección del encabezado de la sección del pie de página -->
+            <picture>
+                <img class="imagen" src="img/El Mago de los Libros.png"> <!-- Imagen en la sección del encabezado -->
+            </picture>
+            <div class="contenedor"> <!-- Contenedor para la sección de redes sociales -->
+                <div class="redes"> <!-- Sección de redes sociales -->
+                    <h2 class="red_social">NUESTRAS REDES SOCIALES</h2>
+                    <!-- Encabezado de la sección de redes sociales -->
+                    <div class="redes-span"> <!-- Contenedor para los íconos de las redes sociales -->
+                        <span class="fb"> <!-- Ícono de Facebook -->
+                            <i class="fa-brands fa-facebook">
+                                <a class="botonRed" href="https://m.facebook.com/?locale=es_LA&_rdr"> FACEBOOK</a>
+                                <!-- Enlace a la página de Facebook -->
+                            </i>
+                        </span>
+                        <span class="ins"> <!-- Ícono de Instagram -->
+                            <i class="fa-brands fa-instagram">
+                                <a class="botonRed" href="https://www.instagram.com/"> INSTAGRAM</a>
+                                <!-- Enlace a la página de Instagram -->
+                            </i>
+                        </span>
+                        <span class="wtsp"> <!-- Ícono de WhatsApp -->
+                            <i class="fa-brands fa-whatsapp">
+                                <a class="botonRed" href="https://web.whatsapp.com/"> WHATSAPP</a>
+                                <!-- Enlace a la página de WhatsApp -->
+                            </i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br> <!-- Salto de línea -->
+        <div id="autor"> <!-- Sección de información de autor -->
+            Copyright © 2023 - All Right Reserved "Juan Rodrigo"
+        </div>
+    </footer> <!-- Fin de la sección de pie de página -->
+</body> <!-- Fin del cuerpo del documento -->
+</html> <!-- Fin del documento -->

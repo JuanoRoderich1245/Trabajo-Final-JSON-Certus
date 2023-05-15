@@ -1,0 +1,137 @@
+<!DOCTYPE html> <!-- Indica al navegador que el documento es un documento HTML. -->
+<html lang="es"> <!-- Elemento raíz de un documento HTML que define todo el documento. -->
+
+<head>
+    <!-- Contiene elementos que proporcionan información sobre el documento, como el título, el enlace al archivo CSS y otros metadatos. -->
+    <meta charset="UTF-8"> <!-- Especifica el conjunto de caracteres UTF-8 utilizado en el documento. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Especifica la versión de Internet Explorer que debe usarse para renderizar la página. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define la escala inicial de la página para dispositivos móviles. -->
+    <title>Librería Online - "El Mago de los Libros"</title>
+    <!-- Define el título de la página que se muestra en la pestaña del navegador. -->
+    <script src="https://kit.fontawesome.com/56704fd2de.js" crossorigin="anonymous"></script>
+    <!-- Vincula el archivo de script de Font Awesome para el uso de iconos. -->
+    <link rel="icon" href="img/Icono.png"> <!-- Especifica el icono que se muestra en la pestaña del navegador. -->
+    <!-- Vincula el archivo de hoja de estilo externa para dar estilo a la página HTML. -->
+    <link rel="stylesheet" href="css/estilo.css">
+    <!-- Estilos de Bootstrap 5.3.0-alpha3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="cuerpo"> <!-- Contiene todo el contenido visible de la página HTML. -->
+    <!--ENCABEZADO-->
+    <header> <!-- Contiene el encabezado de la página HTML, incluyendo un título y un subtitulo. -->
+        <h1>LIBRERÍA "EL MAGO DE LOS LIBROS" </h1> <!-- Define el título principal del encabezado. -->
+        <h2> Calidad y precio</h2> <!-- Define el subtítulo del encabezado. -->
+    </header>
+
+    <nav class="navbar bg-dark" data-bs-theme="dark" style="padding: 12px;"> <!-- Navigation con Bootstrap -->
+        <ul> <!-- Define una lista sin ordenar para los elementos de navegación. -->
+            <li class="nav-item"> <!-- Define cada elemento de la lista de navegación. -->
+                <a href="index.html">Inicio</a>
+            </li> <!-- Define un enlace a otra página o recurso web. -->
+            <li class="nav-item"><a href="about.html">Quiénes somos</a></li>
+            <li class="nav-item"><a href="indexContacto.html" target="_self">Contáctenos</a>
+                <!-- anchor {a}, target => destino de marca hacia el público dirigido --></li>
+        </ul> <!-- Botón Carrito -->
+        <span class="navbar-text">
+            <form class="d-flex">
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#ventanaCarrito"
+                    style="margin-left: auto;">
+                    <span id="contador-productos">0</span>
+                    <i class="fa-solid fa-cart-shopping" style="color: #000000;">Carrito</i>
+                </button>
+            </form>
+        </span>
+    </nav>
+
+    <!-- VENTANA DEL CARRO -->
+    <div id="ventanaCarrito" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">TUS COMPRAS</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="carritoProductos" class="modal-body">
+                    <p>Sin ninguna compra.</p>
+                    <!-- Aquí se agregarán los elementos del carrito -->
+                </div>
+                <div class="modal-footer">
+                    <div class="mb-3" style="padding-right: 50px;">
+                        <h3>Total:<p id="total-pagar">S/ 00.00</p></h3>
+                    </div>
+                    <div class="mb-3">
+                        <button id="botonBorrar" type="button" class="btn btn-danger" data-bs-dismiss="modal">Borrar
+                            compra</button>
+                        <button id="botonFinalizar" type="button" class="btn btn-success">Finalizar compra</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notificación -->
+    <div id="notificacion">Tus mejores libros en un solo lugar.</div>
+    <!-- Define una notificación en la página HTML. -->
+
+    <!-- Parte Principal -->
+    <main> <!-- Contiene el contenido principal de la página HTML. -->
+        <!-- LLENAR CON 12 ARTÍCULOS ESTA PÁGINA CON JSON-->
+        <!-- Seccion de catalogo -->
+        <section id="catalogo" style="justify-items: stretch;">
+            <!-- Define la sección de catálogo con un id para el estilo. -->
+            <!-- Agregamos artículos por JSON -->
+        </section>
+    </main>
+
+    <footer class="pie_pagina"> <!-- Inicio de la sección de pie de página -->
+        <div class="cabeza"> <!-- Sección del encabezado de la sección del pie de página -->
+            <picture>
+                <img class="imagen" src="img/El Mago de los Libros.png"> <!-- Imagen en la sección del encabezado -->
+            </picture>
+            <div class="contenedor"> <!-- Contenedor para la sección de redes sociales -->
+                <div class="redes"> <!-- Sección de redes sociales -->
+                    <h2 class="red_social">NUESTRAS REDES SOCIALES</h2>
+                    <!-- Encabezado de la sección de redes sociales -->
+                    <div class="redes-span"> <!-- Contenedor para los íconos de las redes sociales -->
+                        <span class="fb"> <!-- Ícono de Facebook -->
+                            <i class="fa-brands fa-facebook">
+                                <a class="botonRed" href="https://m.facebook.com/?locale=es_LA&_rdr"> FACEBOOK</a>
+                                <!-- Enlace a la página de Facebook -->
+                            </i>
+                        </span>
+                        <span class="ins"> <!-- Ícono de Instagram -->
+                            <i class="fa-brands fa-instagram">
+                                <a class="botonRed" href="https://www.instagram.com/"> INSTAGRAM</a>
+                                <!-- Enlace a la página de Instagram -->
+                            </i>
+                        </span>
+                        <span class="wtsp"> <!-- Ícono de WhatsApp -->
+                            <i class="fa-brands fa-whatsapp">
+                                <a class="botonRed" href="https://web.whatsapp.com/"> WHATSAPP</a>
+                                <!-- Enlace a la página de WhatsApp -->
+                            </i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br> <!-- Salto de línea -->
+        <div id="autor"> <!-- Sección de información de autor -->
+            Copyright © 2023 - All Right Reserved "Juan Rodrigo"
+        </div>
+    </footer> <!-- Fin de la sección de pie de página -->
+
+    <!-- Cargamos el JS custom que se abrirá con el archivo JSON-->
+    <script src="js/custom.js">
+    </script>
+
+</body> <!-- Fin del cuerpo del documento -->
+</html> <!-- Fin del documento -->

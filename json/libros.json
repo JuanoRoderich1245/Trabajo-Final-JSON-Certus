@@ -1,0 +1,86 @@
+[
+    {
+        "sku": "Travesuras de la Niña Mala",
+        "name": "Travesuras de la Niña Mala",
+        "price": "79",
+        "offer": "0.30",
+        "image": "Travesuras de la niña mala.jpg"
+    },
+    {
+        "sku": "La casa verde",
+        "name": "La Casa Verde",
+        "price": "79",
+        "offer": "0.35",
+        "image": "La casa verde.jpg"
+    },
+    {
+        "sku": "La Palabra del Mudo",
+        "name": "La Palabra del Mudo. Antología",
+        "price": "39",
+        "offer": "0.30",
+        "image": "La Palabra del Mudo.jpg"
+    },
+    {
+        "sku": "Poemas humanos",
+        "name": "Poemas Humanos",
+        "price": "69",
+        "offer": "0.30",
+        "image": "Poemas humanos.jpg"
+    },
+    {
+        "sku": "El Mago de Oz",
+        "name": "El Mago de Oz",
+        "price": "35",
+        "offer": "0.35",
+        "image": "El Mago de Oz.jpg"
+    },
+    {
+        "sku": "Harry Potter y la Cámara Secreta",
+        "name": "Harry Potter y la Cámara Secreta",
+        "price": "219",
+        "offer": "0.35",
+        "image": "Harry Potter y la Cámara Secreta.jpg"
+    },
+    {
+        "sku": "La vuelta al mundo en 80 días",
+        "name": "La Vuelta al Mundo en 80 Días",
+        "price": "49",
+        "offer": "0.35",
+        "image": "La vuelta al mundo en 80 días.jpg"
+    },
+    {
+        "sku": "El viejo y el mar",
+        "name": "El viejo y el mar",
+        "price": "39",
+        "offer": "0.35",
+        "image": "El viejo y el mar.jpg"
+    },
+    {
+        "sku": "Robinson Crusoe",
+        "name": "Robinson Crusoe",
+        "price": "60",
+        "offer": "0.35",
+        "image": "Robinson Crusoe.jpg"
+    },
+    {
+        "sku": "La Odisea",
+        "name": "La Odisea",
+        "price": "59",
+        "offer": "0.35",
+        "image": "La Odisea.jpg"
+    },
+    {
+        "sku": "La Ilíada",
+        "name": "La Ilíada",
+        "price": "45",
+        "offer": "0.35",
+        "image": "La Iliada.jpg"
+    },
+    {
+        "sku": "Mi Planta de Naranja Lima",
+        "name": "Mi Planta de Naranja Lima",
+        "price": "49",
+        "offer": "0.60",
+        "image": "Mi Planta de Naranja Lima.jpg"
+    }
+]

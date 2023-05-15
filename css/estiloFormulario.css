@@ -1,0 +1,48 @@
+/*Impotación de fuente de letra desde Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Indie+Flower&family=Permanent+Marker&display=swap');
+
+/*Creamos la clase "formulario-container" e invocamos sus propiedades en la página web*/
+.formulario-container {
+    Display:Flex; /* Establece un contenedor de elementos flexibles */
+    Justify-content:Space-between; /* Establece la alineación horizontal de los elementos */
+}
+
+/*CSS PARA LA ETIQUETA LABEL, H3*/
+label, h3{
+    font-weight: bold; /* Establecer el grosor de la fuente del texto a negrita */
+    font-family: 'Cinzel', serif; /* Establecer la fuente de la familia tipográfica de un elemento de texto */
+}
+
+/*CSS PARA LA ETIQUETA TEXTAREA, SELECT, INPUT*/
+input, textarea, select {
+    margin-bottom: 15px; /* Establece el margen inferior de 15 píxeles para separar los elementos */
+    padding: 7px; /* Establece el relleno de 7 píxeles para los elementos */
+    box-sizing: border-box; /* Establece el modelo de caja de borde para que el tamaño total del elemento incluya el relleno y el borde, pero no el margen */
+  }
+
+/*CSS PARA LA ETIQUETA TEXTAREA*/
+textarea {
+    max-width: 530px; /* Establece el ancho máximo del elemento en 530 píxeles */
+    min-width: 530px; /* Establece el ancho mínimo del elemento en 530 píxeles */
+    min-height: 140px; /* Establece la altura mínima del elemento en 140 píxeles */
+    max-height: 150px; /* Establece la altura máxima del elemento en 150 píxeles */
+  }
+
+  /*CSS PARA LA ETIQUETA FORM, H3*/
+  form, h3 {
+    margin-left: 20px; /* Establece el margen izquierdo de 20 píxeles para separar los elementos del borde izquierdo de la ventana */
+  }
+
+  .ubicanos{
+    margin: auto;
+  }
+/*Creamos la clase "boton" e invocamos sus propiedades en la página web*/
+  .boton {
+    margin-left: 200px; /* Establece el margen izquierdo de 200 píxeles para separar el botón de otros elementos del borde izquierdo de la ventana */
+  }
+
+  /*CSS PARA LA ETIQUETA SECTION DIRIGIENDO A LA ETIQUETA P*/
+  section > p {
+    font-weight: bold; /* Establece el peso de la fuente en negrita */
+    font-family: 'Cinzel', serif; /* Establece la fuente Cinzel para el elemento */
+  }

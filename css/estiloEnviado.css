@@ -1,0 +1,41 @@
+/*Impotación de fuente de letra desde Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/*Creamos la clase "imagenEnviado" e invocamos sus propiedades en la página web*/
+.imagenEnviado {
+    height: 500px; /* Establece la altura del elemento en 500 píxeles */
+    width: 500px; /* Establece el ancho del elemento en 500 píxeles */
+  }
+  
+/*Creamos la clase "boton" e invocamos sus propiedades en la página web*/
+  .boton {
+    background-color: #199319; /* Establece el color de fondo en verde */
+    color: white; /* Establece el color de texto en blanco */
+    padding: 15px 25px; /* Establece el relleno del botón */
+    text-decoration: none; /* Elimina la decoración de texto predeterminada */
+    font-family: 'Righteous', cursive; /* Establece la fuente Righteous para el botón */
+    text-align: center; /* Establece el alineamiento del texto en el centro */
+    margin-bottom: 10px; /* Establece el margen inferior del botón */
+  }
+  
+/*Creamos la clase "enviado" e invocamos sus propiedades en la página web*/
+  .enviado {
+    margin-left: 20px; /* Establece el margen izquierdo del elemento en 20 píxeles */
+    text-align: center; /* Establece la alineación del texto en el centro */
+    box-sizing: border-box; /* Establece la caja de contenido para incluir el borde y el relleno */
+    display: flex; /* Establece el contenedor de elementos como un contenedor de elementos flexibles */
+    align-items: center; /* Establece la alineación vertical del contenido en el centro */
+    flex-direction: column; /* Establece la dirección del contenido en columnas */
+  }
+  
+/*Creamos la clase "noti" e invocamos sus propiedades en la página web*/
+  .noti {
+    font-family: 'Righteous', cursive; /* Establece la fuente Righteous para el elemento */
+    margin-top: 5px; /* Establece el margen superior del elemento en 5 píxeles */
+    margin-bottom: 5px; /* Establece el margen inferior del elemento en 5 píxeles */
+  }
+  
+/*Creamos la clase "formulario" e invocamos sus propiedades en la página web*/
+  .formulario {
+    text-align: center; /* Establece la alineación del texto en el centro */
+  }
